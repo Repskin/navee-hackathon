@@ -81,11 +81,27 @@ body
 	vertical-align: top;
 	/*float: center;*/
 	display : inline-block;
-	border: 1px solid #ccc;
+	/*border: 1px solid #ccc;*/
 	padding: 15px;
 	width: 100%;
 	margin: 0;
-	border-radius: 5px;
+	/*border-radius: 5px;*/
+	color: grey;
+	text-align: center;
+	background: black;
+	border: none;
+}
+.input input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: grey;
+}
+.input input::-moz-placeholder { /* Firefox 19+ */
+  color: grey;
+}
+.input input:-ms-input-placeholder { /* IE 10+ */
+  color: grey;
+}
+.input input:-moz-placeholder { /* Firefox 18- */
+  color: grey;
 }
 
 /*send button*/
@@ -109,7 +125,9 @@ body
 
 .text.you
 {
-	background: rgba(210, 171, 153, 0.65);
+	/*background: rgba(210, 171, 153, 0.65);*/
+	background: #FEFEE2;
+	color: black;
 	float: right;
 	padding: 15px 20px;
 	border-radius: 5px;
@@ -118,7 +136,9 @@ body
 
 .text.other
 {
-	background: rgba(83, 19, 30, 0.65);
+	/*background: rgba(83, 19, 30, 0.65);*/
+	background: #FEFEE2;
+	color: black;
 	padding: 15px 20px;
 	border-radius: 10px;
 }
